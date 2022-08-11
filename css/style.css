@@ -1,8 +1,15 @@
-header {
-    color: rgb(23, 41, 41);
+.navigator:focus, .navigator:hover {
+ color:#2196F3;
+}
+li {
+list-style-type: none;
+};
+.fon-jpg {
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background: #2F303A;
 };
 
-.logo {
-    color: #000;
-    background-color: blue;
-}
+ 
