@@ -3,7 +3,7 @@
 };
 
 .logo-head {
-        width: 170px;
+        
         
 }
 
@@ -16,6 +16,13 @@
         flex-wrap: wrap;
         min-width: 1020px;
         min-height: 30px;
+        border: solid tomato;
+}
+
+.second {
+        border: solid tomato;
+                margin-top: 0px;
+                        margin-bottom: 0px;
 }
 
 .navi-page {
@@ -24,6 +31,15 @@
         display: inline-block;
         margin-right: 100px;
         flex-wrap: wrap;
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
+.navigator {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
 }
 
 .navi-page2 {
@@ -45,11 +61,19 @@ li {
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
 
 .navigator:focus, .navigator:hover {
         color:#2196F3;
         display: inline-block;
+}
+
+.front {
+        width: 1600px;
+        height: 600px;
+        border: solid yellow;
 }
 
 .h1 {
@@ -111,17 +135,17 @@ li {
 }
 
 .specifications {
-        align-items: stretch;
-        display: inline-block;
-
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 95px;
+        margin-bottom: 110px;
+        padding-left: 0px;
 }
+
         
 .benefits {
-        display: flex;
-        align-items: normal;
-        display: inline-block;
-        margin-right: 100px;
-        flex-wrap: wrap;
+        text-align: center;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -130,26 +154,29 @@ li {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
-        margin-left: 70px;
-        background-color: teal;
 }
 
 .descriptions {
-       
-        display: inline-block;
-        margin-right: 0px;
-        flex-wrap: wrap;
+        text-align: center;
+        width: 270px;
+        height: 72px;
+        border: solid yellow;
         width: 380px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;   
+        line-height: 24px;
         letter-spacing: 0.03em;
         color: #757575;
 }
 
+.testing {
+        display: flex;
+        flex-direction: column;
+        border: solid rgb(35, 219, 97);
 
+}
 
 .h2 {
         font-family: 'Roboto';
@@ -179,9 +206,11 @@ li {
 }
 
 .logo-footer {
-        margin-left: 215px;
-        margin-top: 60px;
+
 }
+
+
+
 
 .test-footer {
         font-family: 'Roboto';
@@ -197,6 +226,12 @@ li {
         
 }
 
+.one-more {
+        width: 1600px;
+        height: 600px;
+        border: solid green;
+}
+
 
 .imagess {
         display: flex;
@@ -205,12 +240,39 @@ li {
         
                 
 }
+
+.pesronal {
+        
+        width: 1600px;
+        height: 500px;
+        border: solid tomato;
+        background: #F5F4FA;
+}
+
 .personals {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
 };
 
+
+.personals .name .skill{
+        padding-left: 150px;
+}
+
+.image{
+        grid-area: imeg;
+        display: flex;
+        box-shadow: 10px 10px 8px 2px rgba(19, 17, 17, 0.3);
+}
+
+.name {
+        
+}
+
+.skill {
+       
+}
 
 
 /*ul li {
@@ -231,11 +293,17 @@ li {
 }
 
 
-.pesronal {
-        background: #F5F4FA;
-}
 
 .footers {    
-       
+        width: 1600px;
+        height: 252px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         background: #2F303A;
+        padding-left: 0px;
+        border: solid rebeccapurple;
+}
+
+.backgraund {
+        background-image: auto;
 }
